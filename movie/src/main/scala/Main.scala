@@ -56,13 +56,15 @@ def topMoviesWithYears(movies: List[Movie],n: Int,year: Int): List[String] =
 def mostPopular(movies: List[Movie]): Movie =
   movies.maxBy(_.popularity)
 
-def movieByYear(movies: List[Movie],year: Int): List[String] =
+def moviesReleased(movies: List[Movie], year: Int): List[String] =
   movies
     .filter(_.release_date.startsWith(year.toString))
+    .sortBy(_.release_date)
     .zipWithIndex
     .map { (movie, index) =>
-      s"${index + 1}. ${movie.title}"
+      s"${index + 1}. ${movie.title} - ${movie.release_date}"
     }
+
 
 def mostVotedMovie(movies: List[Movie],n: Int): List[String] =
   movies
@@ -83,6 +85,11 @@ def mostVotedMovieByYear(movies: List[Movie],n: Int,year: Int): List[String] =
       s"${index + 1}. ${movie.title} - ${movie.vote_count}"
     }
 
+def numberMoviesReleased(movies: List[Movie],year: Int): Int =
+  movies
+    .filter(_.release_date.startsWith(year.toString))
+    .length
+
 @main def run(): Unit =
   loadMovies("D:/download/top_rated_movies.csv") match
     case Right(movies) =>
@@ -93,9 +100,10 @@ def mostVotedMovieByYear(movies: List[Movie],n: Int,year: Int): List[String] =
         |1. Top n Rated Movies of all time
         |2. Top n Rated Movies by Year
         |3. Most Popular Movie
-        |4. Movies in the year
+        |4. Movies released by that year
         |5. Top n most voted Movies of all time
         |6. Top n most voted Movies by year
+        |7. Number of Movies released by that year
         |""".stripMargin
       )
       val choice = readLine("Enter choice: ")
@@ -114,7 +122,7 @@ def mostVotedMovieByYear(movies: List[Movie],n: Int,year: Int): List[String] =
           println( s"Most Popular: ${result.title} - Popularity: ${result.popularity}")
         case "4" =>
           val year = readLine("Enter year: ").toInt
-          val result = movieByYear(movies,year)
+          val result = moviesReleased(movies,year)
           result.foreach(println)
         case "5" =>
           val n = readLine("Enter number: ").toInt
@@ -125,6 +133,10 @@ def mostVotedMovieByYear(movies: List[Movie],n: Int,year: Int): List[String] =
           val year = readLine("Enter year: ").toInt
           val result = mostVotedMovieByYear(movies,n,year)
           result.foreach(println)
+        case "7" =>
+          val year = readLine("Enter year: ").toInt
+          val result = numberMoviesReleased(movies,year)
+          println(result)
     case Left(error) =>
       println("Error: " + error)
 
