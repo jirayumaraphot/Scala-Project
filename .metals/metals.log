@@ -1,0 +1,196 @@
+2569.02.18 21:13:59 INFO  Started: Metals version 1.6.5 in folders 'C:\Users\User\Documents\GitHub\Scala-Project' for client Visual Studio Code 1.109.4.
+2569.02.18 21:13:59 INFO  Memory monitor started
+2569.02.18 21:14:01 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2569.02.18 21:14:01 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:04 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:17 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:17 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:17 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:17 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:19 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+ก.พ. 18, 2026 9:14:19 หลังเที่ยง org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+2569.02.18 21:14:19 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:20 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:21 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:21 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+ก.พ. 18, 2026 9:14:21 หลังเที่ยง org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+2569.02.18 21:14:21 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+ก.พ. 18, 2026 9:14:21 หลังเที่ยง org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+2569.02.18 21:14:21 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:21 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:21 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:21 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:22 WARN  no build target for: C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala
+ก.พ. 18, 2026 9:14:22 หลังเที่ยง org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21
+2569.02.18 21:14:21 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:22 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:22 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:22 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:22 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:22 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:23 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:23 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:23 WARN  no build target for: C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala
+2569.02.18 21:14:23 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:23 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:23 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:23 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:23 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:23 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:24 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:24 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:24 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:24 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:25 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:25 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:25 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:25 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:25 WARN  no build target for: C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala
+2569.02.18 21:14:25 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:25 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+ก.พ. 18, 2026 9:14:26 หลังเที่ยง org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 55
+2569.02.18 21:14:26 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:26 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:26 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:26 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:26 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:26 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:26 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:27 WARN  no build target for: C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala
+2569.02.18 21:14:27 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:27 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:26 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+ก.พ. 18, 2026 9:14:27 หลังเที่ยง org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 68
+2569.02.18 21:14:27 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:27 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:27 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:27 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:27 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:27 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:29 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:29 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:29 WARN  no build target for: C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala
+2569.02.18 21:14:29 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:30 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:30 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:30 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:30 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:30 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:31 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:32 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:32 WARN  no build target for: C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala
+2569.02.18 21:14:32 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:35 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:35 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:37 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:37 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:38 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:38 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:38 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:39 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:40 WARN  no build target for: C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala
+2569.02.18 21:14:40 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:40 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:42 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:42 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:42 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:43 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:42 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:42 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:43 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:43 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:43 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:44 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:45 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:45 WARN  no build target for: C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala
+2569.02.18 21:14:45 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:45 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:45 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:46 WARN  no build target for: C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala
+2569.02.18 21:14:46 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:46 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:46 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:46 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:46 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:46 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:46 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:47 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:46 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:47 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:47 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:47 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:47 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:48 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:48 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:48 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:48 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:48 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:48 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:49 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:50 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:50 WARN  no build target for: C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala
+2569.02.18 21:14:50 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:50 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:50 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:50 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+ก.พ. 18, 2026 9:14:50 หลังเที่ยง org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 187
+2569.02.18 21:14:50 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:50 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:50 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:50 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:52 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:52 WARN  no build target for: C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala
+2569.02.18 21:14:52 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:54 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:54 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:54 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:54 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:54 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:54 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:54 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+ก.พ. 18, 2026 9:14:55 หลังเที่ยง org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 211
+2569.02.18 21:14:55 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:55 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+ก.พ. 18, 2026 9:14:55 หลังเที่ยง org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 216
+2569.02.18 21:14:55 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:55 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:55 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:55 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:55 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:56 WARN  no build target for: C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala
+2569.02.18 21:14:56 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:55 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:58 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:58 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:58 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:58 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:58 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:58 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:58 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:58 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:59 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:59 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:59 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:15:00 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:59 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:59 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+ก.พ. 18, 2026 9:15:00 หลังเที่ยง org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 255
+2569.02.18 21:14:59 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:14:59 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:15:00 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:15:01 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2569.02.18 21:15:01 WARN  no build target for: C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala
+2569.02.18 21:15:01 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+ก.พ. 18, 2026 9:15:10 หลังเที่ยง org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2569.02.18 21:15:10 INFO  no build target found for C:\Users\User\Documents\GitHub\Scala-Project\movie\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
