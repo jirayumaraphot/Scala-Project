@@ -1,5 +1,6 @@
 import com.opencsv.CSVReader
 import java.io.FileReader
+import scala.util.Using
 import scala.jdk.CollectionConverters.*
 
 case class Movie(
@@ -13,13 +14,10 @@ case class Movie(
 )
 
 def loadMovies(path: String): Either[String, List[Movie]] =
-  var reader: CSVReader | Null = null
-
   try
-    reader = CSVReader(new FileReader(path))
-    val rows = reader.readAll().asScala.toList
+    Using(CSVReader(new FileReader(path))) { reader =>
+      val rows = reader.readAll().asScala.toList
 
-    val movies =
       rows.tail.map { row =>
         Movie(
           row(0).toInt,
@@ -31,31 +29,26 @@ def loadMovies(path: String): Either[String, List[Movie]] =
           row(6).toInt
         )
       }
-
-    Right(movies)
-
+    }.toEither.left.map(_.getMessage)
   catch
     case e: Exception =>
       Left(e.getMessage)
 
-  finally
-    if reader != null then reader.close()
+def top10Formatted(movies: List[Movie]): List[String] =
+  movies
+    .sortBy(- _.vote_average)
+    .take(10)
+    .zipWithIndex
+    .map { (movie, index) =>
+      s"${index + 1}. ${movie.title} - ${movie.vote_average}"
+    }
 
-def printTop10(movies: List[Movie]): Unit =
-  val top10 =
-    movies
-      .sortBy(- _.vote_average)   // descending
-      .take(10)
-
-  println("Top 10 Movies by Rating:")
-  top10.zipWithIndex.foreach { (movie, index) =>
-    println(s"${index + 1}. ${movie.title} - ${movie.vote_average}")
-  }
 
 @main def run(): Unit =
   loadMovies("D:/download/top_rated_movies.csv") match
     case Right(movies) =>
-      printTop10(movies)
+      val result = top10Formatted(movies)
+      result.foreach(println)
     case Left(error) =>
       println("Error: " + error)
 
