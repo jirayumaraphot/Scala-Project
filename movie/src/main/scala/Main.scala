@@ -21,13 +21,13 @@ def loadMovies(path: String): Either[String, List[Movie]] =
 
       rows.tail.map { row =>
         Movie(
-          row(0).toInt,
+          safeToInt(row(0)),
           row(1),
           row(2),
           row(3),
-          row(4).toDouble,
-          row(5).toDouble,
-          row(6).toInt
+          safeToDouble(row(4)),
+          safeToDouble(row(5)),
+          safeToInt(row(6))
         )
       }
     }.toEither.left.map(_.getMessage)
@@ -37,7 +37,7 @@ def loadMovies(path: String): Either[String, List[Movie]] =
 
 def topMovies(movies: List[Movie],n: Int): List[String] =
   movies
-    .sortBy(- _.vote_average)
+    .sortBy(m => -m.vote_average)
     .take(n)
     .zipWithIndex
     .map { (movie, index) =>
@@ -47,14 +47,16 @@ def topMovies(movies: List[Movie],n: Int): List[String] =
 def topMoviesWithYears(movies: List[Movie],n: Int,year: Int): List[String] =
   movies
     .filter(_.release_date.startsWith(year.toString))
-    .sortBy(- _.vote_average)
+    .sortBy(m => -m.vote_average)
     .take(n)
     .zipWithIndex
     .map { (movie, index) =>
       s"${index + 1}. ${movie.title} - ${movie.vote_average}"
     }
-def mostPopular(movies: List[Movie]): Movie =
-  movies.maxBy(_.popularity)
+def mostPopular(movies: List[Movie]): Option[Movie] =
+  movies.reduceOption((a, b) =>
+    if a.popularity >= b.popularity then a else b
+  )
 
 def moviesReleased(movies: List[Movie], year: Int): List[String] =
   movies
@@ -68,7 +70,7 @@ def moviesReleased(movies: List[Movie], year: Int): List[String] =
 
 def mostVotedMovie(movies: List[Movie],n: Int): List[String] =
   movies
-    .sortBy(- _.vote_count)
+    .sortBy(m => -m.vote_count)
     .take(n)
     .zipWithIndex
     .map { (movie, index) =>
@@ -78,7 +80,7 @@ def mostVotedMovie(movies: List[Movie],n: Int): List[String] =
 def mostVotedMovieByYear(movies: List[Movie],n: Int,year: Int): List[String] =
   movies
     .filter(_.release_date.startsWith(year.toString))
-    .sortBy(- _.vote_count)
+    .sortBy(m => -m.vote_count)
     .take(n)
     .zipWithIndex
     .map { (movie, index) =>
@@ -116,14 +118,23 @@ def numberMoviesReleased(movies: List[Movie],year: Int): Int =
           val n = readLine("Enter number: ").toInt
           val year = readLine("Enter year: ").toInt
           val result = topMoviesWithYears(movies,n,year)
-          result.foreach(println)
+          if result.isEmpty then
+            println("No movies found for that year.")
+          else
+            result.foreach(println)
         case "3" =>
-          val result = mostPopular(movies)
-          println( s"Most Popular: ${result.title} - Popularity: ${result.popularity}")
+          mostPopular(movies) match
+            case Some(result) =>
+              println(s"Most Popular: ${result.title} - Popularity: ${result.popularity}")
+            case None =>
+              println("No movies found.")
         case "4" =>
           val year = readLine("Enter year: ").toInt
           val result = moviesReleased(movies,year)
-          result.foreach(println)
+          if result.isEmpty then
+            println("No movies found for that year.")
+          else
+            result.foreach(println)
         case "5" =>
           val n = readLine("Enter number: ").toInt
           val result = mostVotedMovie(movies,n)
@@ -132,11 +143,12 @@ def numberMoviesReleased(movies: List[Movie],year: Int): Int =
           val n = readLine("Enter number: ").toInt
           val year = readLine("Enter year: ").toInt
           val result = mostVotedMovieByYear(movies,n,year)
-          result.foreach(println)
+          if result.isEmpty then
+            println("No movies found for that year.")
+          else
+            result.foreach(println)
         case "7" =>
           val year = readLine("Enter year: ").toInt
           val result = numberMoviesReleased(movies,year)
-          println(result)
     case Left(error) =>
       println("Error: " + error)
-
