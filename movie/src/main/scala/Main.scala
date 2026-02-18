@@ -14,6 +14,14 @@ case class Movie(
   vote_count: Int
 )
 
+def safeToInt(s: String): Int =
+  try s.toInt
+  catch { case _: NumberFormatException => 0 }
+
+def safeToDouble(s: String): Double =
+  try s.toDouble
+  catch { case _: NumberFormatException => 0.0 }
+
 def loadMovies(path: String): Either[String, List[Movie]] =
   try
     Using(CSVReader(new FileReader(path))) { reader =>
@@ -150,5 +158,6 @@ def numberMoviesReleased(movies: List[Movie],year: Int): Int =
         case "7" =>
           val year = readLine("Enter year: ").toInt
           val result = numberMoviesReleased(movies,year)
+          println(result)
     case Left(error) =>
       println("Error: " + error)
