@@ -63,6 +63,26 @@ def movieByYear(movies: List[Movie],year: Int): List[String] =
     .map { (movie, index) =>
       s"${index + 1}. ${movie.title}"
     }
+
+def mostVotedMovie(movies: List[Movie],n: Int): List[String] =
+  movies
+    .sortBy(- _.vote_count)
+    .take(n)
+    .zipWithIndex
+    .map { (movie, index) =>
+      s"${index + 1}. ${movie.title} - ${movie.vote_count}"
+    }
+
+def mostVotedMovieByYear(movies: List[Movie],n: Int,year: Int): List[String] =
+  movies
+    .filter(_.release_date.startsWith(year.toString))
+    .sortBy(- _.vote_count)
+    .take(n)
+    .zipWithIndex
+    .map { (movie, index) =>
+      s"${index + 1}. ${movie.title} - ${movie.vote_count}"
+    }
+
 @main def run(): Unit =
   loadMovies("D:/download/top_rated_movies.csv") match
     case Right(movies) =>
@@ -74,6 +94,8 @@ def movieByYear(movies: List[Movie],year: Int): List[String] =
         |2. Top n Rated Movies by Year
         |3. Most Popular Movie
         |4. Movies in the year
+        |5. Top n most voted Movies of all time
+        |6. Top n most voted Movies by year
         |""".stripMargin
       )
       val choice = readLine("Enter choice: ")
@@ -93,6 +115,15 @@ def movieByYear(movies: List[Movie],year: Int): List[String] =
         case "4" =>
           val year = readLine("Enter year: ").toInt
           val result = movieByYear(movies,year)
+          result.foreach(println)
+        case "5" =>
+          val n = readLine("Enter number: ").toInt
+          val result = mostVotedMovie(movies,n)
+          result.foreach(println)
+        case "6" =>
+          val n = readLine("Enter number: ").toInt
+          val year = readLine("Enter year: ").toInt
+          val result = mostVotedMovieByYear(movies,n,year)
           result.foreach(println)
     case Left(error) =>
       println("Error: " + error)
