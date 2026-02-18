@@ -12,30 +12,50 @@ case class Movie(
   vote_count: Int
 )
 
+def loadMovies(path: String): Either[String, List[Movie]] =
+  var reader: CSVReader | Null = null
+
+  try
+    reader = CSVReader(new FileReader(path))
+    val rows = reader.readAll().asScala.toList
+
+    val movies =
+      rows.tail.map { row =>
+        Movie(
+          row(0).toInt,
+          row(1),
+          row(2),
+          row(3),
+          row(4).toDouble,
+          row(5).toDouble,
+          row(6).toInt
+        )
+      }
+
+    Right(movies)
+
+  catch
+    case e: Exception =>
+      Left(e.getMessage)
+
+  finally
+    if reader != null then reader.close()
+
+def printTop10(movies: List[Movie]): Unit =
+  val top10 =
+    movies
+      .sortBy(- _.vote_average)   // descending
+      .take(10)
+
+  println("Top 10 Movies by Rating:")
+  top10.zipWithIndex.foreach { (movie, index) =>
+    println(s"${index + 1}. ${movie.title} - ${movie.vote_average}")
+  }
+
 @main def run(): Unit =
-  // สามารถเปลี่ยนที่ตั้งของ file ได้
-  val reader = CSVReader(new FileReader("C:/Users/User/Documents/GitHub/Scala-Project/top_rated_movies.csv"))
+  loadMovies("D:/download/top_rated_movies.csv") match
+    case Right(movies) =>
+      printTop10(movies)
+    case Left(error) =>
+      println("Error: " + error)
 
-  val rows = reader.readAll().asScala.toList
-  reader.close()
-
-  val movies =
-    rows.tail.map { row =>
-      Movie(
-        row(0).toInt,
-        row(1),
-        row(2),
-        row(3),
-        row(4).toDouble,
-        row(5).toDouble,
-        row(6).toInt
-      )
-    }
-
-  println(s"Loaded ${movies.length} movies")
-
-  println("\nTop 10 Highest Rated:")
-  movies
-    .sortBy(- _.vote_average)
-    .take(10)
-    .foreach(m => println(s"${m.title} - ${m.vote_average}"))
